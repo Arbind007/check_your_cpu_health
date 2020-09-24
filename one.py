@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+from network import *
 import shutil
 import psutil
 
@@ -20,5 +21,8 @@ elif not check_cpu_usage():
     print("Error! Your  CPU usage is more tha 75 percent of memory. Please try by reducing some task")
 elif not check_disk_usage("/") or not check_cpu_usage():
     print("Error! Both your cpu and disk has reached to your max limit")
+elif check_localhost() and check_connectivity():
+    print("Everything ok")
 else:
-    print("Everything is OK")
+    print("Network checks failed")
+
