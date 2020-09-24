@@ -4,7 +4,7 @@ IT CHECKS YOUR NETWORK CONNECTIVIT,DISK USAGE AND MEMORY USAGE. IT REPOTS A ERRO
 
 
 
-HOW TO USE IT
+HOW TO USE IT:-
 Clone your file to your local machine
 
 Run the command in the terminal = chmod +x one.py (To give permission to the file to make it executable)
